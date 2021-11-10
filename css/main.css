@@ -87,8 +87,6 @@
   margin: 40px 0 40px 0;
   flex-direction: column;
 }
-.side-min ul {
-}
 .side-min ul li:hover {
   border-radius: 10px;
   background-color: #f7c339;
