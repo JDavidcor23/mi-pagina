@@ -1,6 +1,4 @@
-let sideVisible = document.querySelector(".side")
-
-let ocultar = () =>{
-    sideVisible.setAttribute("class", "side-invisible")
-    sideVisible.innerHTML = ''
-}
+var hamburger = document.querySelector(".hamburger");
+hamburger.addEventListener("click", function(){
+  document.querySelector("body").classList.toggle("active");
+})
